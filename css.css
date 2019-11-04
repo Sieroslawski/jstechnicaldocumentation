@@ -1,0 +1,177 @@
+/**Global Elements**/
+@import url(https://fonts.googleapis.com/css?family=Niramit);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+
+body {
+ min-width: 290px;
+ background: #00B4DB;  
+ background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB); 
+ background: linear-gradient(to bottom, #0083B0, #00B4DB); 
+ font-family: 'Niramit', Arial, sans-serif;
+ line-height: 1.5;
+ padding: 20px; 
+}
+
+#main-doc {
+   
+   display: absolute;
+   float: right;
+   margin-left: 390px;
+   padding: 15px;
+}
+
+header {
+ font-size: 1.5em;
+ font-weight: 600;
+ text-align: center;
+ font-family: 'Orbitron', 'Niramit', Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;    
+    width: 320px;
+    height: 100%;
+    background: #00B4DB;  
+    background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  
+    background: linear-gradient(to bottom, #0083B0, #00B4DB); 
+    overflow: scroll;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    
+
+    
+   }
+  
+#navbar li {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    list-style: none;
+    position: relative;
+    left:-50px;
+    width: 100%;
+    line-height: 2em;
+    background: #457fca;  
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca); 
+    background: linear-gradient(to right, #5691c8, #457fca);
+    font-weight: 600;
+    color: black;          
+}
+
+#navbar li:hover {
+    color: white;
+    background: #457fca;  
+    background: -webkit-linear-gradient(to left, #5691c8, #457fca);  
+    background: linear-gradient(to left, #5691c8, #457fca); 
+
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar-button { 
+    display: block; 
+    height: 13px; 
+    border-radius: 0px; 
+    background-color: #AAA; 
+} 
+
+::-webkit-scrollbar-button:hover { 
+    background-color: #AAA; 
+} 
+
+::-webkit-scrollbar-thumb { 
+    background-color: #17208c; border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb:hover { 
+    background-color: #3040cb; border-radius: 10px; 
+}
+::-webkit-scrollbar-track { 
+    background-color: #efefef; 
+} 
+
+::-webkit-scrollbar-track:hover { 
+    background-color: #CCC; 
+}
+::-webkit-scrollbar { 
+    width: 12px; 
+}
+
+code {
+ background-color: #80bfff;
+ white-space: pre;
+ display: block; 
+ position: relative;
+ margin: 15px;
+ border-radius: 10px;
+ padding: 10px;
+ line-height: 2;
+ text-align: left;
+ word-break: normal;
+ word-wrap: normal;
+}
+
+@media (max-width: 660px) {
+    code {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 45px;
+    padding: 10px;
+    margin-left: -10px;
+    
+    }
+}
+
+h1 {
+ font-family: 'Orbitron', 'Niramit', Arial, sans-serif;
+}
+
+.goback {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    float: right;
+    margin-top: -7px;
+}
+
+.goback:hover {
+    color: white;
+}
+
+@media(max-width: 845px) {
+   #navbar{
+    position: relative;
+    margin-left: -10px;
+    width: 100%;
+    max-height: 420px;    
+    background: #00B4DB;  
+    background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  
+    background: linear-gradient(to bottom, #0083B0, #00B4DB); 
+    overflow: scroll;
+    left: 0;
+    top: 0;
+    text-align: center;
+    overflow-x: hidden;
+    border: 2px solid;
+   }
+  
+  #main-doc {
+    margin-left: 20px;
+    
+  }
+}
+
+@media(max-width: 375px) {
+  #main-doc {
+    width: 100%;
+    margin-right: -15px;
+    overflow-x: hidden;
+  }
+}
+
